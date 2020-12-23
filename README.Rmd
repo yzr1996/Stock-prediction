@@ -7,7 +7,8 @@ output:
 
 # Stock Price Predictor
 - authors: Eric(Zhenrui) Yu, Guanshu Tao, William Xu
-A data analysis collaboration project during the 2020 winter break.
+
+A data science collaboration project during the 2020 winter break.
 
 ## Introduction
 For this project we are trying to answer the question: given the price history of S&P500 index, what is the price of S&P500 index today? Answering this prediction question is a good starting point because stock markets are hard to predict and we are interested in exploring whether the historical price plays an important role in future prices.
@@ -50,4 +51,4 @@ python src/download_data.py --ticker=^GSPC --data=yahoo --start=2012-01-01 --end
 ## License
 The Stock Price Predictor materials here are licensed under the Creative Commons Attribution 2.5 Canada License (CC BY 2.5 CA). If re-using/re-mixing please provide attribution and link to this webpage.
 
-# Reference
+# References
