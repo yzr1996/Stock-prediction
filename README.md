@@ -1,10 +1,4 @@
----
-output: 
-  html_document:
-    keep_md: true
----
-
-## Stock Price Predictor
+# Stock Price Predictor
 - authors: Eric(Zhenrui) Yu, Guanshu Tao, William Xu
 
 ## About
