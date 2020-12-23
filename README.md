@@ -33,3 +33,4 @@ python src/download_data.py --ticker=^GSPC --data=yahoo --start=2012-01-01 --end
 The Stock Price Predictor materials here are licensed under the Creative Commons Attribution 2.5 Canada License (CC BY 2.5 CA). If re-using/re-mixing please provide attribution and link to this webpage.
 
 # Reference
+
