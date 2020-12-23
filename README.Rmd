@@ -7,7 +7,8 @@ output:
 
 # Stock Price Predictor
 - authors: Eric(Zhenrui) Yu, Guanshu Tao, William Xu
-A data analysis collaboration project during the 2020 winter break.
+
+A data science collaboration project during the 2020 winter break.
 
 ## Introduction
 For this project we are trying to answer the question: given the price history of S&P500 index, what is the price of S&P500 index today? Answering this prediction question is a good starting point because stock markets are hard to predict and we are interested in exploring whether the historical price plays an important role in future prices.

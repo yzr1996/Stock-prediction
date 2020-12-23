@@ -1,11 +1,19 @@
+---
+bibliography: doc/stock_prediction_refs.bib
+output: 
+  html_document:
+    keep_md: true
+---
+
 # Stock Price Predictor
 - authors: Eric(Zhenrui) Yu, Guanshu Tao, William Xu
-A data analysis collaboration project during the 2020 winter break.
+
+A data science collaboration project during the 2020 winter break.
 
 ## Introduction
 For this project we are trying to answer the question: given the price history of S&P500 index, what is the price of S&P500 index today? Answering this prediction question is a good starting point because stock markets are hard to predict and we are interested in exploring whether the historical price plays an important role in future prices.
 
-The data set used in this project is from Yahoo Finance and was sourced from Panadas Datareader[@pandas-datareader]. The timeline of the analysis is set from January 1, 2012 to December 17, 2020. Each row in the data set represents the daily performance of the S&P500, and each column represents an attribute of S&P500 (e.g., date, daily high, daily low, opening price, close price, volume, adjusted close price).
+The data set used in this project is from Yahoo Finance and was sourced from Panadas Datareader(“Pandas-Datareader 0.6.0 Documentation” 2020). The timeline of the analysis is set from January 1, 2012 to December 17, 2020. Each row in the data set represents the daily performance of the S&P500, and each column represents an attribute of S&P500 (e.g., date, daily high, daily low, opening price, close price, volume, adjusted close price).
 
 To be continued (3 more paragraphs):
 Model planning
@@ -43,4 +51,5 @@ python src/download_data.py --ticker=^GSPC --data=yahoo --start=2012-01-01 --end
 ## License
 The Stock Price Predictor materials here are licensed under the Creative Commons Attribution 2.5 Canada License (CC BY 2.5 CA). If re-using/re-mixing please provide attribution and link to this webpage.
 
-# Reference
+## Reference
+“Pandas-Datareader 0.6.0 Documentation.” 2020. https://pandas-datareader.readthedocs.io/en/latest/.
