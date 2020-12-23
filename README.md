@@ -1,10 +1,3 @@
----
-bibliography: doc/stock_prediction_refs.bib
-output: 
-  html_document:
-    keep_md: true
----
-
 # Stock Price Predictor
 - authors: Eric(Zhenrui) Yu, Guanshu Tao, William Xu
 
