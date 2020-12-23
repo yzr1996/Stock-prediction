@@ -44,5 +44,5 @@ python src/download_data.py --ticker=^GSPC --data=yahoo --start=2012-01-01 --end
 ## License
 The Stock Price Predictor materials here are licensed under the Creative Commons Attribution 2.5 Canada License (CC BY 2.5 CA). If re-using/re-mixing please provide attribution and link to this webpage.
 
-## Reference
+## References
 “Pandas-Datareader 0.6.0 Documentation.” 2020. https://pandas-datareader.readthedocs.io/en/latest/.
