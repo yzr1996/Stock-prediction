@@ -1,9 +1,6 @@
 ---
-
 output: github_document
 bibliography: doc/stock_prediction_refs.bib
-
-
 ---
 
 # S&P500 Index Predictor

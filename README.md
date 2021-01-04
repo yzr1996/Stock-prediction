@@ -1,8 +1,3 @@
-------------------------------------------------------------------------
-
-output: github\_document bibliography: doc/stock\_prediction\_refs.bib
-
-------------------------------------------------------------------------
 
 # S&P500 Index Predictor
 
@@ -30,11 +25,11 @@ given the price history of S&P500 index, what is the price of S&P500
 index today?
 
 Our dataset is from Yahoo Finance and was sourced from Pandas
-Datareader(**pandas-datareader?**). The timeline of the analysis is set
-from January 1, 2012 to December 17, 2020. Each row in the data set
-represents the daily performance of the S&P500, and each column
-represents an attribute of S&P500 (e.g., date, daily high, daily low,
-opening price, close price, volume, adjusted close price).
+Datareader(“Pandas-Datareader 0.6.0 Documentation” 2020). The timeline
+of the analysis is set from January 1, 2012 to December 17, 2020. Each
+row in the data set represents the daily performance of the S&P500, and
+each column represents an attribute of S&P500 (e.g., date, daily high,
+daily low, opening price, close price, volume, adjusted close price).
 
 To answer the predictive question posed above, we plan to build a
 recurrent neural networks model called Long Short-Term Memory (LSTM).
@@ -94,3 +89,14 @@ Commons Attribution 2.5 Canada License (CC BY 2.5 CA). If
 re-using/re-mixing please provide attribution and link to this webpage.
 
 # References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-pandas-datareader" class="csl-entry">
+
+“Pandas-Datareader 0.6.0 Documentation.” 2020.
+<https://pandas-datareader.readthedocs.io/en/latest/>.
+
+</div>
+
+</div>
