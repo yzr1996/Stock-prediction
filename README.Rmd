@@ -26,7 +26,11 @@ Thus far we have performed some data analysis, and the report for that can be fo
 To replicate the analysis, clone this GitHub repository, install the [dependencies](#dependencies) listed below, and run the following commands at the command line/terminal from the root directory of this project:
 
 ```
+# download clean data
 python src/download_data.py --ticker=^GSPC --data=yahoo --start=2012-01-01 --end=2020-12-17 --out_file=data/raw/SP500_data.csv
+
+# create exploratory data analysis figure and write to file
+python src/stock_pred_eda.py --in_file=data/raw/SP500_data.csv --output_file=results/
 ```
 
 ## Dependencies

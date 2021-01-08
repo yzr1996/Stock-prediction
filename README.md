@@ -63,7 +63,11 @@ To replicate the analysis, clone this GitHub repository, install the
 commands at the command line/terminal from the root directory of this
 project:
 
+    # download clean data
     python src/download_data.py --ticker=^GSPC --data=yahoo --start=2012-01-01 --end=2020-12-17 --out_file=data/raw/SP500_data.csv
+
+    # create exploratory data analysis figure and write to file
+    python src/stock_pred_eda.py --in_file=data/raw/SP500_data.csv --output_file=results/
 
 ## Dependencies
 
@@ -90,9 +94,9 @@ re-using/re-mixing please provide attribution and link to this webpage.
 
 # References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references hanging-indent">
 
-<div id="ref-pandas-datareader" class="csl-entry">
+<div id="ref-pandas-datareader">
 
 “Pandas-Datareader 0.6.0 Documentation.” 2020.
 <https://pandas-datareader.readthedocs.io/en/latest/>.
